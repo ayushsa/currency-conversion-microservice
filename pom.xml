@@ -9,6 +9,8 @@
 		<version>2.2.4.RELEASE</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
+	
+	<packaging>war</packaging>
 	<groupId>com.currency.conversion</groupId>
 	<artifactId>CurrencyConversionService</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
@@ -87,7 +89,8 @@
 	<build>
 		<plugins>
 		<!-- This Plugin is added by Ayush -->
-		<!--<plugin><!-- don't pack the war  -->
+		
+		<!-- <plugin>don't pack the war 
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-war-plugin</artifactId>
 				<executions>
@@ -107,7 +110,7 @@
 						</goals>
 					</execution>
 				</executions>
-			</plugin>-->
+			</plugin> -->
 		
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
