@@ -90,7 +90,7 @@
 		<plugins>
 		<!-- This Plugin is added by Ayush -->
 		
-		<!-- <plugin>don't pack the war 
+		 <plugin>don't pack the war 
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-war-plugin</artifactId>
 				<executions>
@@ -110,7 +110,7 @@
 						</goals>
 					</execution>
 				</executions>
-			</plugin> -->
+			</plugin> 
 		
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
